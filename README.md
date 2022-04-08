@@ -6,7 +6,7 @@ Here, we implement the Steganography in C to write/encrypt the message into an i
 1. Clone the repository
 2. $ cd Steganography
 3. $ make
-4. $ ./writeMessage "<secret message>" image.ppm
+4. $ ./writeMessage "[secret message]" image.ppm
   * Escape special characters with `\`
   * out.ppm is the output file
 5. $ ./readMessage out.ppm 
